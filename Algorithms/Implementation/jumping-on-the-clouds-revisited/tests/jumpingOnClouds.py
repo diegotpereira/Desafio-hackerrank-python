@@ -14,6 +14,18 @@
 # índice da próxima nuvem em relação ao tamanho do array. Isso é feito usando a expressão (i + k) % n, 
 # onde i é o índice atual, k é a distância de salto e n é o número total de nuvens.
 
+
+# Ler o número de nuvens e a distância de salto.
+# Ler a matriz que representa as nuvens.
+# Definir a energia inicial para 100.
+# Definir a variável de índice para 0 (representando a primeira nuvem).
+# Iniciar um loop enquanto o índice não chegar novamente à primeira nuvem.
+# Dentro do loop, atualizar o índice para a próxima nuvem que o personagem deve saltar, usando a distância de salto e fazendo a operação módulo para garantir que a rota seja circular.
+# Verificar se a nuvem atual é cumulus ou thunderhead e ajustar a energia de acordo: decrementar em 1 para nuvens cumulus e decrementar em 3 para nuvens thunderhead.
+# Verificar se o índice atual é igual a 0. Se sim, sair do loop.
+# Retornar a energia restante.
+# Essa lógica é implementada nas duas soluções de código fornecidas anteriormente.
+
 # def jumpingOnClouds(matriz_nuvens, distancia_salto):
     
 #     # Obter o número total de nuvens
