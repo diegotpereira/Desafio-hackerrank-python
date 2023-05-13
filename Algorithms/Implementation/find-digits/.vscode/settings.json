@@ -1,10 +1,6 @@
 {
     "python.testing.pytestArgs": [
-<<<<<<< HEAD
         "test"
-=======
-        "tests"
->>>>>>> aa3ce824dffa57bd37fdb0a2372a6a0cb10bd2a6
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true
