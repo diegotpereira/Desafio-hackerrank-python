@@ -58,6 +58,21 @@
     
     
 from collections import Counter
+# A tarefa do problema "Beautiful Pairs" no HackerRank é encontrar 
+# o número máximo de pares "bonitos" que podem ser formados a partir 
+# de dois conjuntos de elementos. Cada conjunto contém números inteiros.
+
+# Um par é considerado "bonito" se os conjuntos iniciais tiverem pelo menos 
+# um elemento em comum e, ao remover um elemento desse par, o número total 
+# de elementos comuns nos conjuntos diminui.
+
+# A tarefa consiste em determinar o número máximo de pares bonitos que podem 
+# ser formados ao escolher um elemento de um dos conjuntos e um elemento correspondente 
+# do outro conjunto, e, em seguida, removendo esses elementos de ambos os conjuntos.
+
+# O objetivo é implementar um algoritmo eficiente para resolver esse problema e retornar 
+# o número máximo de pares bonitos que podem ser formados.
+
 
 def beautifulPairs(A, B):
     
