@@ -2,7 +2,7 @@ from clique import clique
 
 if __name__ == '__main__':
     
-    entrada = int(input())
+    entrada = int(input().strip())
     
     for entrada_itr in range(entrada):
         
